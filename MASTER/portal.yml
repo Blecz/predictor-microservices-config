@@ -20,10 +20,10 @@ endpoints:
 zuul:
   ignoredServices: "*"
   prefix: /api
+  strip-prefix: true
   debug:
     request: true
   routes:
     microservico-autenticacao:
         path: /microservico-autenticacao/**
         serviceId: microservico-autenticacao
-        stripPrefix: true

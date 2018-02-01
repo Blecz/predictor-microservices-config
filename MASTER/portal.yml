@@ -20,7 +20,7 @@ endpoints:
 zuul:
   ignoredServices: "*"
   prefix: /api
-  stripPrefix: false
+  stripPrefix: true
   debug:
     request: true
   routes:

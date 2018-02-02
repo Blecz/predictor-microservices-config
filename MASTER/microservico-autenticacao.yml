@@ -6,5 +6,4 @@ eureka:
     serviceUrl:
       defaultZone: http://35.203.165.142:8761/eureka/
   instance:
-    hostname: 35.203.165.142
     preferIpAddress: true

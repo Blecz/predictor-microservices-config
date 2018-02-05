@@ -6,4 +6,5 @@ eureka:
     serviceUrl:
       defaultZone: http://35.203.165.142:8761/eureka/
   instance:
-    preferIpAddress: true
+    preferIpAddress: false
+    hostname: microservico-autenticacao
